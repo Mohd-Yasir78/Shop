@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent1{
+    width: 100vw;
+    height: 100vh;
+}
+
+.banner{
+    width: 100vw;
+    height: 100%;
+    /* border: 1px solid red; */
+    background-image: url(./Photo/banner1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+heading1{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    color: #fff;
+    font-size: 35px;
+    font-family: a;
+}
+
+heading2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 50px;
+    font-family: a;
+}
+
+.enq{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: green;
+    font-family: a; 
+}
+
+.box1{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(51, 0, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.head{
+   width: 100%;
+   height: auto;
+   border: 1px solid red;
+   font-size: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   text-align: center;
+   font-family: a;
+   font-weight: 700;
+   margin-top: 20px;
+   margin-top: 50px;
+}
+
+.parent2{
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+.child1{
+    width: 300px;
+    height: 300px;
+    border: 1px solid blue;
+}
+
+
+
+/* media query========== */
+@media (max-width:750px) {
+    .banner heading2{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        /* color: black; */
+    }
+}
+
+
+@media (max-width: 360px) {
+
+    .banner heading1{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+        color: rgb(7, 228, 7);
+    }
+
+    .banner heading2{
+        font-size: 30px;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+    }
+
+    .enq{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+    }
+}
+
+@media (max-width:320px) {
+    .banner heading1{
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -65%);
+    }
+
+    .enq{
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -25%);
+    }
+
+    
+}
+
+

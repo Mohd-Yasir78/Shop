@@ -22,12 +22,12 @@ const Navbar = () => {
         </div>
         
         <div class="nav-links">
-          <a><NavLink to='/'>Home</NavLink></a>
-          <a><NavLink to='/fertilizer'>Fertilizer</NavLink></a>
-          <a><NavLink to='/seed'>Seed</NavLink></a>
-          <a><NavLink to='/pesticide'>Pesticide</NavLink></a>
-          <a><NavLink to='/register'>Register</NavLink></a>
-          <a><NavLink to='/login'>Login</NavLink></a>
+          <NavLink to='/'>Home</NavLink>
+          <NavLink to='/fertilizer'>Fertilizer</NavLink>
+          <NavLink to='/seed'>Seed</NavLink>
+          <NavLink to='/pesticide'>Pesticide</NavLink>
+          <NavLink to='/register'>Register</NavLink>
+          <NavLink to='/login'>Login</NavLink>
           
         </div>
       </div>
